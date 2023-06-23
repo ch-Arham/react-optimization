@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 // import AdminDashboard from '../../components/AdminDashboard'
 
-const AdminDashboard = lazy(() => import('../../components/AdminDashboard'))
+const AdminDashboard = lazy(() => import('../../components/AdminDashboard/AdminDashboard'))
 
 const Home = () => {
     const [isAdmin, setIsAdmin] = useState(false)
